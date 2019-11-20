@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-        测试webhook是否可以检测前端代码代码更新
+        测试webhook是否检测前端代码代码更新
           <ul>
             <li v-for="(item,index) in users" :key="index">
               {{item.name}}
