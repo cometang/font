@@ -22,7 +22,7 @@ export default {
 
  },
  mounted(){
-   axios.get('http://47.99.192.199:3000/api/users')
+   axios.get('/api/users')
    .then(res=>{
      console.log(res)
      this.users = res.data
