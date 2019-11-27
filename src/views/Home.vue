@@ -3,7 +3,7 @@
         测试pm2+webhook是否检测前端代码代码更新
           <ul>
             <li v-for="(item,index) in users" :key="index">
-              {{item.name}}
+              {{item.id}} :{{item.name}}
             </li>
           </ul>
     </div>
